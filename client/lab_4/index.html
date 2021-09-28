@@ -1,19 +1,60 @@
-Chelsea McGovern Lab 4: HTML Forms
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Lab 3</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <div class="top-bar">
+            <div class="bar">Chelsea McGovern Lab 3: Flexbox Demo</div>
+        </div>
+        <div class="menu-container">
+            <div class="menu">
+                <div class="date">September 28, 2021</div>
+                <div class="links">
+                    <div class="database-demos"><a href="data.html">Database Demos</a>&#9662</div>
+                    <div class="main-page">Main Page</div>
+                </div>
+            </div>
+        </div>
 
-today's date
-Database Demos
-Main Page
-
-Group Project Link (no site yet)
-Awesome Logo
-Github Link
-
-image_1
-image_2
-image_3
-image_4
-image_5
-
-footer item 1
-footer item 2
-footer item 3
+        <div class="header-container">
+            <div class="header">
+                <div class="project-link">Group Project Link &#9662;</div>
+                <div class="logo"><img src="images/awesome-logo.svg"/></div>
+                <div class="github"><a href="https://github.com/cmcgover/INST377-Lab-Work">Github Link</a>&#9662;</div>
+            </div>
+        </div>
+        <div class="photo-grid-container">
+            <div class="carousel">
+                <div class="carousel-item carousel-item--visible">
+                    <img src="images/one.svg"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/two.svg"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/three.svg"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/four.svg"/>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/five.svg"/>
+                </div>
+                <div class="carousel-actions">
+                    <button id="carousel-button--prev" aria-label="Previous Slide"><</button>
+                    <button id="carousel-button--next" aria-label="Next Slide">></button>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </div>
+        <div class="footer">
+            <div class="footer-item footer-one">footer item 1</div>
+            <div class="footer-item footer-two">footer item 2</div>
+            <div class="footer-item footer-three">footer item 3</div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
