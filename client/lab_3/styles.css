@@ -17,13 +17,25 @@
 .menu {
     border: 1px solid #fff;
     width: 900px;
+    display: flex;
 }
 
+.top-bar {
+    color: #fff;
+    background-color: rgb(37, 101, 103);
+    padding: 20px 0;
+    display: flex;
+    justify-content: left;
+}
 
 .links {
     border: 1px solid #fff;
     display: flex;
-    justify-content: flex-end;
+    justify-content: right;
+}
+
+.main-page {
+    margin-left: 20px;
 }
 
 .project-link,
